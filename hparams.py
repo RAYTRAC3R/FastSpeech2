@@ -71,7 +71,7 @@ spk_embed_dim = 256
 spk_embed_weight_std = 0.01
 
 # Emotion embedding
-use_spk_embed = dataset_config[dataset]['use_emo_embed']
+use_emo_embed = dataset_config[dataset]['use_emo_embed']
 emo_embed_dim = 128
 emo_embed_weight_std = 0.01
 
