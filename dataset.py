@@ -118,6 +118,8 @@ class Dataset(Dataset):
                "mel_len": length_mel}
         if hp.use_spk_embed:
             out.update({"spk_ids": spk_ids})
+        if hp.use_emo_embed:
+            out.update({"emo_ids": emo_ids})
     
         return out
     
